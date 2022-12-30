@@ -1,4 +1,29 @@
+html,
+body {
+    background-color: #e6f1f6;
+    margin: 0px !important;
+}
+
 .title {
     font-family: Kusanagi;
-    font-size: 10em;
+    margin: 0px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    font-size: 3.5em;
+    margin: 0.285714286em;
+    left: 0px;
+    right: 0px;
+}
+
+.navicon {
+    position: inherit;
+    margin: 0px;
+    right: 0.285714286em;
+}
+
+fa {
+    font-family: FontAwesome;
 }
