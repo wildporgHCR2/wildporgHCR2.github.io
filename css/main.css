@@ -20,10 +20,7 @@ body {
 
 .navicon {
     position: inherit;
+    font-family: FontAwesome;
     margin: 0px;
     right: 0.285714286em;
-}
-
-fa {
-    font-family: FontAwesome;
 }
