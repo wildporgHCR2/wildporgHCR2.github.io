@@ -26,3 +26,7 @@ body {
     margin: 0px;
     right: 0.285714286em;
 }
+
+.blur {
+    filter: blur(1em);
+}
