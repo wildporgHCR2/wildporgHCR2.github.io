@@ -1,5 +1,8 @@
 if (window.localStorage.getItem("lang") != "") {
     console.log("cookies are enabled");
 } else {
-    console.log("cookies are diabled")
+    $("body").append('<div class="cookiepopup">');
+    $(".cookiepopup").append('<p class="cookieheading">')
+    $(".cookieheading").html("Welcome")
+    $(".cookiepopup").append('<p>')
 };
